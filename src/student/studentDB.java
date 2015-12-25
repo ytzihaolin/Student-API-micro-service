@@ -8,7 +8,7 @@ public class studentDB {
     
 	public studentDB(){	
 
-		String jdbcUrl = "jdbc:mysql://52.23.232.38:3306/student?user=root&password=";
+		String jdbcUrl = "jdbc:url";
 		
 		 try {
 			    System.out.println("Loading driver...");
